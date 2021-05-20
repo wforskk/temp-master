@@ -1,0 +1,15 @@
+$primary-color: rgb(10, 20, 30);
+$secondary-color: rgb(230, 230, 152);
+// アニメーション名
+@keyframes fadeIn {
+
+    // スタート
+    0% {
+        opacity: .4
+    }
+
+    // エンド
+    100% {
+        opacity: 1
+    }
+}
