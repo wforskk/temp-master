@@ -10,11 +10,6 @@ type Props = {
 
 const Layout = ({ children }: Props) => (
     <div className={css.appWrapper}>
-        <Head>
-            <title>portfolio</title>
-            <meta charSet="utf-8" />
-            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        </Head>
         <AppBar></AppBar>
         <div className={css.main}>
             {children}
