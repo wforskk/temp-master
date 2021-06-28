@@ -17,7 +17,7 @@ const IndexPage = (prop: Props) => {
     </>)
 }
 IndexPage.getInitialProps = async () => {
-    const template: Template = TemplateData
+    const template: Template[] = TemplateData
     return { template }
 }
 export default IndexPage

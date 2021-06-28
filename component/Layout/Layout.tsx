@@ -1,6 +1,5 @@
 import React, { ReactNode } from 'react'
 import css from './Layout.module.scss'
-import Head from 'next/head'
 import AppBar from '../AppBar/AppBar'
 
 
