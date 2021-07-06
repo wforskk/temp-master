@@ -1,5 +1,6 @@
 $primary-color: rgb(10, 20, 30);
 $secondary-color: rgb(230, 230, 152);
+
 // アニメーション名
 @keyframes fadeIn {
 
@@ -12,4 +13,25 @@ $secondary-color: rgb(230, 230, 152);
     100% {
         opacity: 1
     }
+}
+
+
+@mixin verticalItem($type) {
+    display: flex;
+    display: -webkit-flex;
+    /* 縦方向中央揃え（Safari用） */
+    -webkit-align-items: $type;
+    /* 縦方向中央揃え */
+    align-items: $type;
+    height: inherit;
+}
+
+@mixin horizontalItem($type) {
+    display: flex;
+    display: -webkit-flex;
+    /* 横方向中央揃え（Safari用） */
+    -webkit-justify-content: $type;
+    /* 横方向中央揃え */
+    justify-content: $type;
+    width: inherit;
 }
